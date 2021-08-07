@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lite5"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_marginTop="50dp"
+
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv1"
+        android:paddingLeft="18dp"
+        android:paddingTop="12dp"
+        android:hint="Google"
+        android:background="@android:drawable/editbox_background"
+        android:alpha=".8">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_baseline_search_24"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="-35dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="340dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linear1"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Slot1"
+            android:background="@drawable/phone"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Slot2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/message"
+            android:layout_marginRight="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Slot3"
+            android:text="Messages"
+            android:gravity="bottom"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/skype"
+            android:layout_marginRight="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Slot4"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/outlook"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linear2"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Slot5"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/internet"
+            android:backgroundTint="@color/white"
+            android:layout_marginRight="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Slot6"
+            android:background="@drawable/camera"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Slot7"
+            android:layout_width="80dp"
+            android:background="@drawable/headphone"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Slot8"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/fb"
+            android:layout_marginRight="5dp"
+           >
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
